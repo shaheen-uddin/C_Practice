@@ -34,5 +34,12 @@ ptr = &x[2];
 printf("*ptr = %d \n", *ptr); //3;
 printf("*(ptr+1) =%d \n", *(ptr + 1)); //4
 printf("*(ptr -1 = %d)", *(ptr -1)); //2
+
+printf("***********************************\n");
+
+
+printf("*ptr = %d \n", *x[2]); //3;
+printf("*(ptr+1) =%d \n", *(ptr + 1)); //4
+printf("*(ptr -1 = %d)", *(ptr -1)); //2
     return 0;
 }
